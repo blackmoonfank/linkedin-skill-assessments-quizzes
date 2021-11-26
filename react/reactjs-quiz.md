@@ -880,7 +880,7 @@ const { name: firstName } = person;
 ```
 
 - [ ] It is creating a new object that contains the same name property as the person object.
-- [x] It is assigning the value of the person object's firstName property to a constant called name.
+- [ ] It is assigning the value of the person object's firstName property to a constant called name.
 - [ ] It is retrieving the value of person.name.firstName.
 - [x] It is assigning the value of the person object's name property to a constant called firstName.
 
@@ -897,3 +897,43 @@ const MyComponent = ({ names }) => (
 - [x] React does not allow components to return more than one element.
 - [ ] The component needs to use the return keyword.
 - [ ] String literals must be surrounded by quotes.
+
+#### Q78. When using a portal, what is the second argument?
+
+```javascript
+ReactDOM.createPortal(x, y);
+```
+
+- [ ] the App component
+- [ ] the page
+- [ ] the current state
+- [x] the DOM element that exists outside of the parent component
+
+#### Q79. Given this code, what will be printed in the <h1> tag?
+
+```javascript
+const MyComponent = ({ children }) => (
+  <h1>{children.length}</h1>
+);
+...
+<MyComponent>
+<p>Hello</p>
+<p>Goodbye</p>
+</MyComponent>
+```
+
+- [ ] It will produce an error saying "cannot read property "length" of undefined."
+- [ ] 1
+- [ ] undefined
+- [x] 2
+
+### Q80. What is this pattern called?
+
+```javascript
+const [count, setCount] = useState(0);
+```
+
+- [ ] object destructuring
+- [x] array destructuring
+- [ ] spread operating
+- [ ] code pushing
