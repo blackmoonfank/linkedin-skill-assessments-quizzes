@@ -296,8 +296,13 @@
 
 - [ ] Autopsy
 - [ ] Snort
-- [ ] Nmap
-- [x] Wireshark
+- [x] Nmap
+- [ ] Wireshark
+
+nmap is a port scanner [https://en.wikipedia.org/wiki/Nmap](https://en.wikipedia.org/wiki/Nmap)
+wireshark is a traffic analyzer
+snort is an IDS
+autopsy is for forensic analysis
 
 #### Q39. When implementing a data loss prevention (DLP) strategy, what is the first step in the process?
 
@@ -308,9 +313,9 @@
 
 #### Q40. Which malware changes an operating system and conceals its tracks?
 
-- [x] virus
+- [ ] virus
 - [ ] worm
-- [ ] rootkit
+- [x] rootkit
 - [ ] Trojan horse
 
 #### Q41. Virtual Private Networks (VPNs) use **\_** to create a secure connection between two networks.
@@ -389,3 +394,38 @@
 - [ ] Certification
 - [ ] Reporting
 - [ ] Lessons Learned
+
+#### Q52. Which type of security assessment requires access to source code?
+
+- [ ] dynamic analysis
+- [x] static analysis
+- [ ] penetration testing
+- [ ] black box testing
+
+#### Q53. Which encryption type uses a public and private key pair for encrypting and decrypting data?
+
+- [x] asymmetric
+- [ ] symmetric
+- [ ] hashing
+- [ ] all of these answers
+
+#### Q54. You have just identified and mitigated an active malware attack on a user's computer, in which command and control was established. What is the next step in the process?
+
+- [ ] Reporting
+- [ ] Recovery
+- [ ] Eradiction / Remediation
+- [ ] Lessons Learned
+
+#### Q55. Which is *not* a principle of zero trust security?
+
+- [x] assume breach
+- [ ] verify explicitly
+- [ ] use least privilege access
+- [ ] trust but verify
+
+#### Q56. Which programming language is most susceptible to buffer overflow attacks?
+
+- [x] C
+- [ ] Java
+- [ ] Ruby
+- [ ] Python
