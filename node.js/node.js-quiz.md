@@ -181,21 +181,21 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 - [ ] `__flder`
 - [x] `__filename`
 
-#### 21. If the child_process module methods are in scope, what is a current way to execute the command ps -ef using a child process?
+#### Q21. If the child_process module methods are in scope, what is a current way to execute the command ps -ef using a child process?
 
 - [ ] spawn("ps -ef")
 - [x] exec("ps -ef")
 - [ ] exec("ps", "-ef")
 - [ ] fork("ps -ef")
 
-#### Q22.Which console method can be used to print the stack trace to the point of its execution?
+#### Q22. Which console method can be used to print the stack trace to the point of its execution?
 
 - [ ] stack
 - [x] trace
 - [ ] debug
 - [ ] print
 
-#### Q23.When you run JavaScript in a Node.js application, which of the following elements in a Node.js stack actually executes that JavaScript?
+#### Q23. When you run JavaScript in a Node.js application, which of the following elements in a Node.js stack actually executes that JavaScript?
 
 - [ ] the libuv library
 - [ ] the c-ares library
@@ -218,21 +218,21 @@ server.listen(port, hostname, () => { console.log(`server running at http://${ho
 - [ ] server running at http://localhost:4000/
 - [x] server running at http://127.0.0.1:3000/
 
-#### Q25.What is the purpose of the path module?
+#### Q25. What is the purpose of the path module?
 
 - [x] to provide utilities to play with file and directory paths
 - [ ] to provide utilities to add and remove files
 - [ ] It is a retiring module.
 - [ ] to provide utilities to test files
 
-#### Q26.How do you make an HTTP server object active and listen to requests on certain ports?
+#### Q26. How do you make an HTTP server object active and listen to requests on certain ports?
 
 - [ ] server. start
 - [ ] server.activate
 - [x] server.listen
 - [ ] server. run
 
-#### Q27.What does the code shown below do?
+#### Q27. What does the code shown below do?
 
 ```
 const fs = require('fs'); const os = require('os');
@@ -246,21 +246,21 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] console logs system information
 - [ ] creates a file named data and append numbers
 
-#### Q28.How do you start a Node application, if the entry file is indexjs?
+#### Q28. How do you start a Node application, if the entry file is indexjs?
 
 - [ ] nodemon start
 - [ ] start index.js
 - [x] node index.js
 - [ ] node start
 
-#### Q29.What is the purpose of the file system (fs) module?
+#### Q29. What is the purpose of the file system (fs) module?
 
 - [ ] to provide methods to work with requests and responses
 - [x] to provide methods to work with files
 - [ ] to provide methods to work with databases
 - [ ] to find new file systems
 
-#### Q30.What is the Node LTS version?
+#### Q30. What is the Node LTS version?
 
 - [ ] It is the current unstable version and is to be avoided.
 - [ ] It is the version that will be retired soon.
@@ -292,10 +292,12 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 
 #### Q34. Which special object is an instance of EventEmitter?Which special object is an instance of null?
 
-- [ ] process
+- [x] process
 - [ ] Buffer
 - [ ] root
-- [x] require
+- [ ] require
+
+[Reference](https://nodejs.org/docs/latest-v16.x/api/process.html)
 
 #### Q35. What is the command to get a list of available commands for Node.js?What is the command to get a list of available commands for Node.js?
 
@@ -409,7 +411,10 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [x] process
 - [ ] child_process
 
-**Explanation:** _process is an global object and act like a bridge, the others aren't (please see https://nodejs.org/api/globals.html or https://nodejs.org/api/process.html#process_process)._
+**Explanation:** \_process is an global object and act like a bridge, the others aren't
+
+1. [source](https://nodejs.org/api/globals.html)
+2. [source](https://nodejs.org/api/process.html#process_process)
 
 #### Q51. Which statement is true about Node.js and threads?
 
@@ -544,9 +549,76 @@ console.log(person);
 - [ ] types
 - [ ] callbackify
 
-#### Q65. Which choice is not a subclass of the Error class?
+#### Q66. Which choice is not a subclass of the Error class?
 
 - [x] GlobalError
 - [ ] TypeError
 - [ ] RangeError
 - [ ] AssertionError
+
+#### Q67. What is Node built on?
+
+- [ ] Python
+- [x] V8 JavaScript engine
+- [ ] PHP
+- [ ] c
+
+#### Q68. How does it affect the performance of a web application when an execution path contains a CPU-heavy operation, such as calculating a long Fibonacci sequence?
+
+- [ ] As Node.js is asynchronous, this is handled by a libuv and a threadpool. The performance will not notably degrade.
+- [ ] As the application code runs asynchronously within a single thread, the execution will block, accepting no more requests until the operation is completed.
+- [ ] As Node.js is asynchronous, this is handled by a threadpool and the performance will not notably degrade.
+- [x] The current thread will block until the executon is completed and the operating system will spawn new threads to handle incoming requests. This can exhaust the number of allowed threads (255) and degrade performance over time.
+
+#### Q69. What is used for parsing and running Javascript in Node.js?
+
+- [ ] EventLoop
+- [ ] Libuv
+- [x] Google V8
+- [ ] Express.js
+
+#### Q70. What is the importance of having good practices around status code in your response?
+
+- [x] It indicates success or failure to the client and helps with testing.
+- [ ] It is not important to have good practices regarding status codes
+- [ ] Response codes are the only way you can tell what is happening on the server.
+- [ ] It contains information about the current performance of the server.
+
+#### Q71. How can ECMAScript modules be used natively in Node?
+
+- [x] ECMAScript modules cannot be used natively in Node.
+- [ ] ECMAScript modules can be used natively in Node with the .mjs file extension
+- [ ] ECMAScript modules can be used natively in Node only by using a compiler like Babel.
+- [ ] ECMAScript modules can be used natively in Node only by using a bundle like webpack.
+
+#### Q72. When exploring the Node documentation's features, what are the stability ratings?
+
+- [x] They are an indication of the stability of Nodejs modules and usage recommendations.
+- [ ] They tell if a feature is ES6 compliant.
+- [ ] They are a Node command to validate stability of your code.
+- [ ] They tell if a feature is LTS (Long Term Supported).
+
+#### Q73. Which coice is a core module in Node?
+
+- [x] crypto
+- [ ] chalk
+- [ ] webpack
+- [ ] request
+
+[Reference](https://nodejs.org/api/documentation.html)
+
+#### Q74. Which DNS module method uses the underlying OS facilities and does not necessarily perform any network communication?
+
+- [ ] resolve
+- [ ] reverse
+- [x] lookup
+- [ ] resolve4
+
+#### Q75. What is one way to check that a value is a date object in Node?
+
+- [ ] console.isDate(value)
+- [ ] util.date(value)
+- [ ] assert.isDate(value)
+- [x] util.types.isDate(value)
+
+[Reference](https://nodejs.org/api/dns.html#dnslookuphostname-options-callback)

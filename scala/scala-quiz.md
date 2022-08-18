@@ -83,7 +83,7 @@ val x = (1234, "Active")
 - [ ] Method
 - [x] Null
 
-**Reference**: [Null in Scala Standard library](https://www.scala-lang.org/api/current/scala/Null.html). The question is a bit incorrect - Null is a subtype of every type _except those of value classes_
+[Null in Scala Standard library](https://www.scala-lang.org/api/current/scala/Null.html). The question is a bit incorrect - Null is a subtype of every type _except those of value classes_
 
 #### Q11. For the for-yield construct, is the scope separate between for-body and yield-body?
 
@@ -136,7 +136,7 @@ val z = y::List('c')
 - [ ] `scala.exception.TryFinally`
 - [x] `scala.util.Try`
 
-**Reference**: [scala.util.Try](https://www.scala-lang.org/api/current/scala/util/Try.html)
+[scala.util.Try](https://www.scala-lang.org/api/current/scala/util/Try.html)
 
 #### Q16. What is the data type of y after this code is executed?
 
@@ -156,7 +156,7 @@ val y = (math floor 3.1415 * 2)
 - [ ] `^`
 - [ ] `-`
 
-**Reference**: [Pattern Matching](https://docs.scala-lang.org/tour/pattern-matching.html)
+[Pattern Matching](https://docs.scala-lang.org/tour/pattern-matching.html)
 
 #### Q18. You have created an array using val. Can you change the value of any element of the array—and why or why not?
 
@@ -260,7 +260,7 @@ def main () {
 - [ ] `%`
 - [ ] `&`
 
-**Reference**: [Repeated Parameters in Scala](https://www.baeldung.com/scala/repeated-parameters)
+[Repeated Parameters in Scala](https://www.baeldung.com/scala/repeated-parameters)
 
 #### Q30. What is the code below equivalent to?
 
@@ -294,7 +294,7 @@ myClass.foreach(println _)
 - [x] prepared statement
 - [ ] SQL view
 
-**Reference**: [PreparedStatement from Java](https://docs.oracle.com/javase/8/docs/api/java/sql/PreparedStatement.html) which is also used in Scala
+[PreparedStatement from Java](https://docs.oracle.com/javase/8/docs/api/java/sql/PreparedStatement.html) which is also used in Scala
 
 #### Q34. Which is _not_ a member of the collections hierarchy?
 
@@ -363,42 +363,35 @@ myClass.foreach(println _)
 
 [Source:](https://docs.scala-lang.org/overviews/collections/sets.html)
 
-#### Q43. What's the best way to execute code in the background in a separate thread?
-
-- [ ] AltFuture
-- [ ] Future
-- [ ] AltProcess
-- [ ] AltThread
-
-#### Q44. What do you call a function defined in a block?
+#### Q43. What do you call a function defined in a block?
 
 - [ ] private function
 - [ ] block function
 - [ ] local function
 - [ ] method
 
-#### Q45. What do you call a Scala method that is parametrized by type as well as by value?
+#### Q44. What do you call a Scala method that is parametrized by type as well as by value?
 
 - [ ] multimode method
 - [ ] polymorphic method
 - [ ] closure
 - [ ] collection method
 
-#### Q46. What type of exception is thrown when a precondition is violated?
+#### Q45. What type of exception is thrown when a precondition is violated?
 
 - [x] IllegalArgumentException
 - [ ] NumberFormatException
 - [ ] NullPointerExcepetion
 - [ ] MalformedParameterException
 
-#### Q47. In scala what is precondition?
+#### Q46. In scala what is precondition?
 
 - [ ] a constraint on where a method may be called from
 - [ ] a constraint on values passed to a methode constructor
 - [x] a class of predifined error messages
 - [ ] a class of Boolean operators
 
-#### Q48. What would you change in this code to make it execute in parallel?
+#### Q47. What would you change in this code to make it execute in parallel?
 
 ```
  val myNums = (1 to 500).toList
@@ -410,28 +403,21 @@ myClass.foreach(println _)
 - [ ] Change **val** to **val.par**
 - [ ] Change **toList** to **toParallelList**
 
-#### Q49. What is a free variable?
+#### Q48. What is a free variable?
 
 - [x] a variable defined outside a function
 - [ ] a variable referenced in a function that is not assigned a value by that function
 - [ ] a variable that has a global scope
 - [ ] a variable defined in a class and available to all methods in that class
 
-#### Q50. What is the difference between .equals() and == ?
-
-- [x] **==** is wrapper of **.equals()** and checks for Nulls
-- [ ] They do the exact same thing.
-- [ ] == cannot be applied to String.
-- [ ] == won't work on objects
-
-#### Q51. What's the best way to execute code in the background in a separate thread?
+#### Q49. What's the best way to execute code in the background in a separate thread?
 
 - [ ] AltThread
 - [ ] AltFuture
 - [ ] AltProcess
 - [x] Future
 
-#### Q53. What value does this code return?
+#### Q50. What value does this code return?
 
 ```scala
 x= List(1,2,4); x(1)?
