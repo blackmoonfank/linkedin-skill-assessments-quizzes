@@ -639,7 +639,7 @@
 - [ ] apprentice developer
 - [ ] generalizing specialist
 
-#### Q89. Which statement is _not_ true about pair programming?
+#### Q89. Which statement is not true about pair programming?
 
 - [x] It has been discredited because it is too expensive.
 - [ ] In pair programming, two developers share one computer and take turns at the keyboard.
@@ -687,10 +687,10 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 
 #### Q95. What is a lean canvas?
 
-- [ ] decompose solution into epics, features, and stories
-- [x] template for lightweight business plans that makes your assumptions explicit
-- [ ] tool to plan future project releases
-- [ ] technique for projecting growth in market share.
+- [ ] It is used to decompose solution into epics, features, and stories
+- [x] It is a template for lightweight business plans that makes your assumptions explicit
+- [ ] It is a tool to plan future project releases
+- [ ] It is a technique for projecting growth in market share.
 
 [Source](http://ask.leanstack.com/en/articles/901274-what-is-a-lean-canvas) `1-page business plan template that helps you deconstruct your idea into its key assumptions using 9 basic building blocks.`
 
@@ -716,7 +716,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 
 - [ ] before the Sprint Retospective
 - [ ] after the daily stand-up
-- [x] before the daily stand-up
+- [x] before the daily Scrum
 - [ ] before quarterly planning
 
 #### Q99. What is Empathy Map?
@@ -783,3 +783,45 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] Since no one has come to you with a compliant, assume that the limited interaction works for everyone
 - [x] Ask the team if they would like to do something recreational together and offer to organize it
 - [ ] Tell the team that you see this as a problem and ask them to solve it
+
+#### Q108. Which scale is typically used for Planning Poker?
+
+- [ ] less than 1 hour, 1 to 4 hours, 4 to 8 hours, 8 to 24 hours, more than 24 hours
+- [ ] 2, 4, 6, 8, 10
+- [ ] XS, S, M, L, XL
+- [x] 1, 2, 3, 4, 5, 8, 13, 20
+
+#### Q109. You are the Scrum Master and, having just facilitated a meeting, you're reflecting on ways to improve. What skill are you displaying?
+
+- [x] being self-aware
+- [ ] being extroverted
+- [ ] having type A personality
+- [ ] being someone who takes charge
+
+#### Q110. What background information is most important for a successful Product Owner to understand?
+
+- [ ] The budget for the product.
+- [ ] The underlying technology of the product.
+- [ ] The development team's strengths and weaknesses.
+- [x] The business context for the product.
+
+#### Q111. You are facilitating a meeting to decompose user stories and, unexpectedly, a development team member cannot attend. What should you do?
+
+- [ ] Hold the meeting and update the person who could not attend later.
+- [ ] Ask the person who could not attend to reschedule the meeting based on their availability.
+- [x] Ask all meeting participants what they want to do about the one person's absence
+- [ ] Reschedule the meeting for when all necessary people can attend
+
+#### Q112. As the Scrum Master, you've observed that team members are more comforatble communicating via instant messaging than through direct converstaion. How can you encourange conversation between team members?
+
+- [ ] Move people's workstation around in the team room to create new social possibilities.
+- [x] Since no one has come to you with a complaint, assume that the limited conversation works for everyone.
+- [ ] Tell the team that you see this as a problem and ask them to solve it.
+- [ ] Ask the team if they can think of ways to increase direct converstaion.
+
+#### Q113. What is the expected outcome of the Daily Scrum meeting?
+
+- [ ] updated status on all of the work
+- [x] team alignment on its plan for the day
+- [ ] a list of impediments and priorities
+- [ ] a report to the Product Owner of stories ready to be accepted
