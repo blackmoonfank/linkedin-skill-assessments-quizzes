@@ -10537,6 +10537,36 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Konstantin-Glukhov",
+      "name": "Konstantin-Glukhov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24302271?v=4",
+      "profile": "https://github.com/Konstantin-Glukhov",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "uguroban",
+      "name": "uguroban",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36131157?v=4",
+      "profile": "https://github.com/uguroban",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "HumbertoDiego",
+      "name": "Humberto Alves",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26072136?v=4",
+      "profile": "https://github.com/HumbertoDiego",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
