@@ -216,7 +216,7 @@
 
 - [ ] Override the default Partitioner.
 - [ ] Skip bad records.
-- [ ] Break up Mappers that do more than one task into multiple Mappers.
+- [x] Break up Mappers that do more than one task into multiple Mappers.
 - [ ] Combine Mappers that do one task into large Mappers.
 
 #### Q32. When implemented on a public cloud, with what does Hadoop processing interact?
@@ -320,14 +320,14 @@
 #### Q46. HQL queries produce which job types?
 
 - [ ] Impala
-- [ ] MapReduce
+- [x] MapReduce
 - [ ] Spark
 - [ ] Pig
 
 #### Q47. Suppose you are trying to finish a Pig script that converts text in the input string to uppercase. What code is needed on line 2 below?
 
-    1 data = LOAD '/user/hue/pig/examples/data/midsummer.txt'...
-    2
+1 data = LOAD '/user/hue/pig/examples/data/midsummer.txt'...
+2
 
 - [ ] as (text:CHAR[]); upper_case = FOREACH data GENERATE org.apache.pig.piggybank.evaluation.string.UPPER(TEXT);
 - [x] as (text:CHARARRAY); upper_case = FOREACH data GENERATE org.apache.pig.piggybank.evaluation.string.UPPER(TEXT);
@@ -415,7 +415,7 @@
 
 #### Q59. To get information about Reducer job runs, which object should be added?
 
-- [] Reporter
+- [x] Reporter
 - [ ] IntReadable
 - [ ] IntWritable
 - [ ] Writer
@@ -425,11 +425,11 @@
 - [ ] all data
 - [ ] no data
 - [ ] existing data
-- [ ] new data
+- [x] new data
 
 #### Q61. Which statement should you add to improve the performance of the following query?
 
-```
+```sql
 SELECT
   c.id,
   c.name,
@@ -451,7 +451,7 @@ FROM customers c;
 
 #### Q63. You can optimize Hive queries using which method?
 
-- [ ] secondary indices
+- [x] secondary indices
 - [ ] summary statistics
 - [ ] column-based statistics
 - [ ] a primary key index
@@ -484,16 +484,30 @@ FROM customers c;
 - [x] hadoop fs -copyFromLocal <fromDir> <toDir>
 - [ ] hadoop fs -copyFromLocal <toDir> <fromDir>
 
-#### Q68. delete a Hive **\_** table and you will delete the table **\_**.
+#### Q68. Delete a Hive **\_** table and you will delete the table **\_**.
 
 - [ ] managed; metadata
 - [ ] external; data and metadata
 - [ ] external; metadata
-- [ ] managed; data
+- [x] managed; data
 
 #### Q69. To see how Hive executed a JOIN operation, use the \_ statement and look for the \_ value.
 
-- [ ] EXPLAIN; JOIN Operator
+- [x] EXPLAIN; JOIN Operator
 - [ ] QUERY; MAP JOIN Operator
 - [ ] EXPLAIN; MAP JOIN Operator
 - [ ] QUERY; JOIN Operator
+
+#### Q70. Pig operates in mainly how many nodes?
+
+- [x] Two
+- [ ] Three
+- [ ] Four
+- [ ] Five
+
+#### Q71. After loading data, **\_** and then run a(n) **\_** query for interactive queries.
+
+- [x] invalidate metadata; Impala
+- [ ] validate metadata; Impala
+- [ ] invalidate metadata; Hive
+- [ ] validate metadata; Hive

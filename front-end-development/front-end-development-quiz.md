@@ -13,8 +13,7 @@
 ```
 
 - [ ] ![A](images/Q1-A.jpg)
-- [x]
-  ![B](images/Q1-B.jpg)
+- [x] ![B](images/Q1-B.jpg)
 - [ ] ![C](images/Q1-C.jpg)
 - [ ] ![D](images/Q1-D.jpg)
 
@@ -140,14 +139,14 @@ h1 {
 - [x] no users
 - [ ] screen reader users
 
-#### Q16. Which choice is not part of CSS box model
+#### Q16. Which choice is not part of CSS box model?
 
 - [ ] margin
 - [ ] border
 - [ ] padding
 - [x] paragraph
 
-#### Q17. Which part of the URL `https://app.uniswap.org/pool` specifies the domain name
+#### Q17. Which part of the URL `https://app.uniswap.org/pool` specifies the domain name?
 
 - [ ] https
 - [ ] org
@@ -209,8 +208,6 @@ h1 {
 - [x] two
 
 #### Q24. Which style will change the color of the text?
-
-![A](images/Q24.png)
 
 ```html
 <cite>Noam Chomsky</cite>
@@ -277,7 +274,7 @@ cite {
 - [ ] Items stay in a column until you add some flex properties.
 - [ ] Items display in a row, lined up at the start, and stretch to fill the container
 
-#### Q28. Which line of code, if applied to all flex items in a flex container, would cause each flex item to take up an equal share of the total width of the container? For example, if there are four items, they would get 25% of each/
+#### Q28. Which line of code, if applied to all flex items in a flex container, would cause each flex item to take up an equal share of the total width of the container? For example, if there are four items, they would get 25% of each.
 
 - [ ] `flex: 1 0 0;`
 - [ ] `flex: initial;`
@@ -293,10 +290,12 @@ cite {
 
 #### Q30. What will this loop print?
 
-          let max = 3;
-          for (i = 0; i > max; i++) {
-            document.write("skrt ");
-          }
+```
+let max = 3;
+for (i = 0; i > max; i++) {
+  document.write("skrt ");
+}
+```
 
 - [ ] skrt skrt skrt
 - [ ] skrt skrt
@@ -348,8 +347,8 @@ const user = {
 
 #### Q36. A webpage has `rel="preconnect"` added to a link resource. What will this do?
 
-```
-<link rel="preconnect" href="https://example.com">
+```html
+<link rel="preconnect" href="https://example.com" />
 ```
 
 - [ ] It will tell the browser that this link is a site belonging to the current domain.
@@ -506,9 +505,9 @@ console.log(currencies);
 #### Q52. The flex property is often applied to flex items with a value of 1. Using flex: 1 is a shorthand - what does it unpack to?
 
 - [ ] flex: 0 0 100;
-- [x] flex: 1 0 0;
+- [ ] flex: 1 0 0;
 - [ ] flex: 0 0 auto;
-- [ ] flex: 1 1 auto;
+- [x] flex: 1 1 auto;
 
 [Source: stackoverflow](https://stackoverflow.com/questions/37386244/what-does-flex-1-mean)
 
@@ -539,7 +538,7 @@ console.log(currencies);
 
 [Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/CSS_Grid_Layout_and_Accessibility)
 
-#### Q56. What is the definition of the phrase “Time to Interactive”?
+#### Q56. What is the definition of the phrase "Time to Interactive"?
 
 - [ ] when the browser displays the first bit of content from the DOM
 - [x] when the user can consistently interact with all of the page elements
@@ -598,7 +597,7 @@ console.log(currencies);
 ```css
 .box {
   background-color: blue;
-  background: url(images/star.png) no-repeat left top;
+  background: url(images/star.png?raw=png) no-repeat left top;
 }
 ```
 
@@ -616,49 +615,48 @@ console.log(currencies);
 
 #### Q64. Which code example would center `.box` inside `.container`?
 
-```hmtl
+```html
 <div class="container">
-    <div class="box">what a lovely box, very centered
-    </div>
+  <div class="box">what a lovely box, very centered</div>
 </div>
 ```
 
 - [ ] A
 
-  ```css
-  .container {
-    display: flex;
-    align-items: center;
-  }
-  ```
+```css
+.container {
+  display: flex;
+  align-items: center;
+}
+```
 
 - [x] B
 
-  ```css
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  ```
+```css
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+```
 
 - [ ] C
 
-  ```css
-  .box {
-    align-items: center;
-    justify-content: center;
-  }
-  ```
+```css
+.box {
+  align-items: center;
+  justify-content: center;
+}
+```
 
 - [ ] D
 
-  ```css
-  .container {
-    display: flex;
-    align: center;
-  }
-  ```
+```css
+.container {
+  display: flex;
+  align: center;
+}
+```
 
 #### Q65. CSS Logical Properties and Values now have wide-ranging support in browsers. If you wanted to use the logical version of `width`, which property name would you choose?
 
@@ -784,10 +782,10 @@ box {
 
 #### Q79. In supporting browsers, what would be the effect of using font-display: swap, as in example?
 
-```
+```css
 @font-face {
-    font-family: Helvetica;
-    font-display: swap;
+  font-family: Helvetica;
+  font-display: swap;
 }
 ```
 
@@ -816,3 +814,26 @@ box {
 - [ ] data
 - [ ] src
 - [x] alt
+
+#### Q83.Which pseudo-class allows you to selectively show a focus ring on elements only if keyboard navigation is detected?
+
+- [ ] focus-show
+- [x] :focus-visible
+- [ ] :focus-ring
+- [ ] focus-keyboard
+
+[Reference](https://www.freecodecamp.org/news/focus-rings-for-keyboard-interactions-only/)
+
+#### Q84. To create a collection of radio buttons associated with the same field, each <input> tag must \_\_\_\_.
+
+- [ ] have the same value of the id attribute
+- [x] have the same value of the name attribute
+- [ ] belong to the same field set
+- [ ] have the same value of the class attribute
+
+#### Q85. Which statement about HTML syntax is _false_?
+
+- [x] The value of a class attribute should be unique in an HTML document.
+- [ ] The `<img>` element does not have a closing `</img>` tag.
+- [ ] The `<h1>` element is the most important heading on the page.
+- [ ] The value of an id attribute should be unique in an HTML document.

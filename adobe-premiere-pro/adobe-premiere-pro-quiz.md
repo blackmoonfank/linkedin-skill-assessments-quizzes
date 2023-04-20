@@ -66,7 +66,7 @@ E. Blur
 
 #### Q9. What can you do to make the shape layer automatically adjust size as the text layer changes?
 
-![image](images/001.png)
+![image](images/001.png?raw=png)
 
 - [x] Select the Mask with Shape option.
 - [ ] Select Responsive Design and Pin To the text layer.
@@ -110,7 +110,7 @@ E. Blur
 
 #### Q15. You want to save a short portion of a longer clip for easy access. How can you do this?
 
-![image](images/002.png)
+![image](images/002.png?raw=png)
 
 - [ ] in the Media Browser, mark in and out points on a clip, and then import.
 - [ ] Mark in and out points on the clip in the Program Monitor and select choose Clip > Make Subclip.
@@ -133,7 +133,7 @@ E. Blur
 
 #### Q18. You are working with a new project and have been editing for two hours. What is the number of backup projects you would expect to find?
 
-![image](images/003.png)
+![image](images/003.png?raw=png)
 
 - [ ] 2
 - [ ] 12
@@ -147,11 +147,11 @@ E. Blur
 - [ ] Project
 - [x] Media Browser
 
-Reference : https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-browser.html#:~:text=The%20Media%20Browser%20panel%20should,with%20fragmented%20media%20file%20types.&text=To%20import%20selected%20clips%20into,on%20them%20and%20choose%20Import.
+[Reference](https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-browser.html#:~:text=The%20Media%20Browser%20panel%20should,with%20fragmented%20media%20file%20types.&text=To%20import%20selected%20clips%20into,on%20them%20and%20choose%20Import)
 
 #### Q20. A transition is set to center aligned. What would be the result of dragging with the tool selected, to the right?
 
-![image](images/004.png)
+![image](images/004.png?raw=png)
 
 - [x] The transition would slide to the right.
 - [ ] You would extend only the right side of the transition.
@@ -181,7 +181,7 @@ Reference : https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-bro
 
 #### Q24. How was this clip manipulated using a Curves adjustment?
 
-![image](images/005.png)
+![image](images/005.png?raw=png)
 
 - [x] Hue vs. Luma
 - [ ] Saturation vs. Saturation
@@ -211,7 +211,7 @@ Reference : https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-bro
 
 #### Q28. In the scenario shown below, you want to extend the end of the red clip in the Timeline and not change the duration of the adjacent clip. Which is the most appropriate trim choice to accomplish this?
 
-![image](images/006.png)
+![image](images/006.png?raw=png)
 
 - [ ] Trim In
 - [x] Trim Out
@@ -264,7 +264,7 @@ E. M4A
 
 #### Q33. What can you tell about this transition?
 
-![image](images/007.png)
+![image](images/007.png?raw=png)
 
 - [ ] Premiere will insert white to fill the needed handles.
 - [ ] Premiere will insert black to fill the needed handles.
@@ -287,9 +287,9 @@ E. M4A
 
 #### Q36. You want to pull down the saturation in just the clouds shown below. Which Curves adjustment makes this easiest?
 
-![image](images/008.png)
+![image](images/008.png?raw=png)
 
-- [ ] Hue vs. Saturation
+- [x] Hue vs. Saturation
 - [ ] RGB Curves
 - [ ] Luma vs. Saturation
 - [ ] Hue vs. Luma
@@ -311,7 +311,7 @@ E. Ellipse
 
 #### Q38. Which option can create a color field that automatically adjusts size as you add or subtract from a text layer?
 
-![image](images/009.png)
+![image](images/009.png?raw=png)
 
 - [ ] Choose Fill from the Appearance controls.
 - [ ] Choose Stroke from the Appearance controls.
@@ -327,7 +327,7 @@ E. Ellipse
 
 #### Q40. Looking at the histogram below, which single adjustment slider could create this change?
 
-![image](images/010.png)
+![image](images/010.png?raw=png)
 
 - [ ] Blacks
 - [x] Contrast
@@ -371,7 +371,7 @@ E. Ellipse
 
 #### Q46. Which option is enabled to affect the view of the audio waveforms as shown below?
 
-![image](images/011.png)
+![image](images/011.png?raw=png)
 
 - [ ] Show Audio Time Units
 - [ ] Rectified Audio Waveform
@@ -391,3 +391,69 @@ E. Ellipse
 - [ ] layouts
 - [ ] panel presets
 - [ ] events
+
+#### Q49. Which statement is true about adaptive audio tracks?
+
+- [ ] Input channel configuration determines channel routing
+- [ ] Adaptive tracks are unable to be routed to master track outputs
+- [ ] Channel routing is based on master track configuration
+- [ ] Adaptive tracks can only be routed using the Audio Mixer
+
+#### Q50. When adjusting a sequence's settings, selecting the Maximum Bit Depth in Adobe Premiere Pro for the video settings option is equivalent to which setting?
+
+- [ ] 4:0:0
+- [ ] 4:4:4
+- [ ] 4:2:2
+- [ ] 4:2:0
+
+#### Q51. If your project has elements from an AEP file inside, what should you do to ensure that the project is recognized by the Project Manager?
+
+- [ ] Choose the Convert After Effects Compositions to Clips option
+- [ ] Usd the Render and Replace option
+- [ ] Switch to After Effects first and choose the Render and Replace option
+- [ ] Choose Consolidate and Transcode
+
+#### Q52. Which cisual transition fades the end of one clip into the beginning of the next clip?
+
+- [ ] fade in
+- [ ] fade out
+- [ ] crossfade
+- [x] cross dissolve
+
+#### Q53. Which file formats can be imported into an Adobe Premiere Pro project? (Select three items.)
+
+```markdown
+A. AI
+B. JPEG
+C. PSD
+D. DNG
+E. PDF
+```
+- [ ] A, C, E
+- [ ] A, B, C
+- [ ] B, D, E
+- [ ] B, C, D
+
+#### Q54. After importing items into your project, where do they appear?
+
+- [x] Project panel
+- [ ] Program Monitor panel
+- [ ] Source Monitor panel
+- [ ] Media Browser panel
+
+#### Q55. Suppose you want to darken just the sky area in the image shown. Which Curve adjustment makes this easiest
+
+![image](images/008.png?raw=png)
+
+- [ ] Hue vs. Luma
+- [ ] Hue vs. Hue
+- [ ] Luma vs. Saturation
+- [ ] Hue vs. Saturation
+
+#### Q56. Which bitrate encoding option yields the best balance of quality to file size, but takes longer to encode?
+
+- [ ] VBR, 1 Pass
+- [ ] VBR, 2 Pass
+- [ ] CBR
+- [X] Use Maximum Render Quality
+ 

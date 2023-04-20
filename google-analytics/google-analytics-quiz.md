@@ -34,7 +34,7 @@
 
 #### Q5. What are the icons highlighted below used for?
 
-![Google Analytics Icons](https://i.imgur.com/LZzFesL.png)
+![Google Analytics Icons](https://i.imgur.com/LZzFesL.png?raw=png)
 
 - [x] to change the way the data table is displayed
 - [ ] to adjust the date range
@@ -197,7 +197,9 @@
 - [ ] directly after the `<body>` tag
 - [ ] directly before the `</body>` tag
 
-#### Q28. Refer to the two following URLs. How can you make this data more readable in Google Analytics by mapping the actual product names to the ID in the URL? `.../shop/?ProductID=1234` `.../shop/?ProductID=5678`
+#### Q28. Refer to the two following URLs. How can you make this data more readable in Google Analytics by mapping the actual product names to the ID in the URL?
+
+`.../shop/?ProductID=1234` `.../shop/?ProductID=5678`
 
 - [ ] Configure calculated metrics.
 - [ ] Use a custom import.
@@ -206,7 +208,7 @@
 
 #### Q29. What is this report an example of?
 
-![Tree map](https://i.imgur.com/CJFjxxD.png)
+![Tree map](https://i.imgur.com/CJFjxxD.png?raw=png)
 
 - [ ] Cohort analysis
 - [ ] Funnel visualization
@@ -362,10 +364,10 @@
 
 #### Q51. It is September, and you want to evaluate the most popular page on your site for the month of August. What first steps would you take?
 
-- [x] 1. Set Date Range to Last 30 Days. 2. Visit Behavior > Site Content > All Pages.
-- [ ] 1. Set Date Range to Last 30 Days. 2. Visit Behavior > Site Content > Content Drilldown.
-- [ ] 1. Set Date Range to Last Month. 2. Visit Behavior > Site Content > Content Drilldown.
-- [x] 1. Set Date Range to Last Month. 2. Visit Behavior > Site Content > All Pages.
+- [x] Set Date Range to Last 30 Days. 2. Visit Behavior > Site Content > All Pages.
+- [ ] Set Date Range to Last 30 Days. 2. Visit Behavior > Site Content > Content Drilldown.
+- [ ] Set Date Range to Last Month. 2. Visit Behavior > Site Content > Content Drilldown.
+- [x] Set Date Range to Last Month. 2. Visit Behavior > Site Content > All Pages.
 
 #### Q52. This report is sorted by bounce rate in ascending order. How do you view these results in order of importance instead?
 
@@ -595,9 +597,9 @@
 - [ ] on metrics only
 - [x] temporary
 
-#### Q84. What is a risk of using the Copare to Previous Period option?
+#### Q84. What is a risk of using the Compare to Previous Period option?
 
-- [ ] it is not possible to cmpare previous periods with sampled data pulled ad hoc
+- [ ] it is not possible to compare previous periods with sampled data pulled ad hoc
 - [ ] The same amount of days selected for the Date Range will be used for the coparison
 - [x] If the review period is Wednesday to Thursday, the previous period may include weekends, which may skew the comparison
 - [ ] Both sets of data may appear on the same graph, which will skew your ability to analyze impact
@@ -608,3 +610,10 @@
 - [x] Acquisition > Google Ads > Search queries
 - [ ] Acquisition > Google Ads > Keywords
 - [ ] Acquisition > Campaign > Organic Keywords
+
+#### Q86. What does the Site Search Report Display
+
+- [ ] How users search Google
+- [ ] in-page analytics
+- [ ] waht pages are missing from you site
+- [x] how users search on you site

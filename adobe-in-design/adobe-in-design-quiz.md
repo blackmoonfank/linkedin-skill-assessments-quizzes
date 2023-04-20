@@ -20,7 +20,7 @@
 
 #### Q3. In the image shown, what do you know about the Body Text paragraph style?
 
-![Q3](images/Q3.jpg)
+![Q3](images/question_3.jpg)
 
 - [x] The selected text was not formatted using the style definition.
 - [ ] The selected text is in overset text outside the boundaries of the current frame.
@@ -73,7 +73,7 @@
 
 #### Q10. In the image shown, the text is on a path. You want to move the text farther to the right along the path. How can you accomplish this?
 
-![Q10](images/q10.png)
+![Q10](images/question_10.jpg)
 
 - [ ] Drag the blue square D.
 - [ ] Drag the side handle B
@@ -110,7 +110,7 @@
 
 #### Q15. Which feature would you use to create the effect shown, where the grouped circles blend with each other but not the object behind them?
 
-![Q15](images/Q15.png)
+![Q15](images/question_15.jpg)
 
 - [ ] Global Light
 - [ ] the Screen blending mode
@@ -119,7 +119,7 @@
 
 #### Q16. In the image shown, what do the colored frame edges indicate?
 
-![Q16](images/Q16.png)
+![Q16](images/question_16.jpg)
 
 - [ ] which layer each object is on
 - [x] which master page each object is on
@@ -135,7 +135,7 @@
 
 #### Q18. In the image shown, what can you infer about how this document will print?
 
-![Q18](images/Q18.png)
+![Q18](images/question_18.jpg)
 
 - [ ] The page wil be scaled to fit the paper.
 - [x] All document layers will be visible
@@ -255,11 +255,11 @@
 
 #### 34. You select some text with the Type tool, then click the Eyedropper tool and click a Photoshop image on your page. What happens? (Select three answers.)
 
-- A. The color switches to black.
-- B. The color you clicked is applied to the text.
-- C. The color appears as a swatch in the Swatches panel.
-- D. The color appears in the Color panel.
-- E. If the image is in RGB mode, the text color is also set to RGB mode.
+    A. The color switches to black.
+    B. The color you clicked is applied to the text.
+    C. The color appears as a swatch in the Swatches panel.
+    D. The color appears in the Color panel.
+    E. If the image is in RGB mode, the text color is also set to RGB mode.
 
 - [ ] A, B, D
 - [ ] A, C, E
@@ -277,8 +277,8 @@
 
 - [x] The url is broken
 - [ ] the object is on the red layer
-- [ ] the yperlink is stopped or paused
-- [ ] the content of the yperlink is anchored
+- [ ] the hyperlink is stopped or paused
+- [ ] the content of the hyperlink is anchored
 
 #### 37. You have a paragraph style called Heading applied to text throughout a document. You modify the formatting of Heading in one paragraph, and would like this formatting to apply to all paragraphs with the Heading style applied. Which command would you accomplish this task
 
@@ -297,14 +297,14 @@
 #### 39. Which feature is available for both the Adobe PDF (interactive) and Adobe PDF (Print) export options?
 
 - [ ] hyperlinks
-- [x] form fieds (maybe)
+- [x] form fields
 - [ ] page transitions
 - [ ] audio annotations
 
 #### 40. How do you apply a Fade In animation to the selected object?
 
 - [ ] In the Effects panel, select Fade In
-- [ ] Selet Object > Content > Fade In
+- [ ] Select Object > Content > Fade In
 - [ ] Select Fade In from the menu in the upper-right corner
 - [x] In the Preset menu, select Fade In
 

@@ -347,10 +347,12 @@
 
 #### Q38. What cannot have a trigger associated with it?
 
-- [ ] temporary table
-- [x] system table
+- [x] temporary table
+- [ ] system table
 - [ ] large table
 - [ ] new table
+
+[Reference](https://dev.mysql.com/doc/refman/5.7/en/create-trigger.html)
 
 #### Q39. later versions of mysql support the native json data type for storing json documents. What is a drawback of json columns?
 
@@ -374,17 +376,6 @@
 - [x] `LOAD DATA INFILE`
 - [ ] `LOAD DATA LOCAL INFILE`
 - [ ] `extended INSERT statement`
-
-#### Q42. You are working with the tables as shown in this diagram. You need to make sure that any record added to the purchases table consists of a customerID, which already exists in the customers table, and a carID, which already exists in the cars table. You decide to use a trigger to do the validation. Which one do you use?
-
-![mysql Q43](images/mysql_q43.jpg?raw=true)
-
-- [ ] `AFTER INSERT`
-- [x] `BEFORE INSERT`
-- [ ] `CROSS JOIN`
-- [ ] `IF EXISTS`
-
-`IF EXISTS` and `CROSS JOIN` are not valid for a trigger.
 
 #### Q43. Which is the correct syntax of an extended insert statement?
 
@@ -502,7 +493,7 @@ Note: `DESCRIBE tablename` is a shortcut for this command
 
 - [x] to reduce corruption in data
 - [ ] to reduce storage space
-- [ ] to make the system faster
+- [x] to make the system faster
 - [ ] to prevent data anomalies
 
 Note: "to make the system faster" can also be correct. For example we can calculate some heavy query in advance and store its result in some column (use it as a cache). So if "system" means "application which uses mysql" then it's correct too.
@@ -620,14 +611,15 @@ Note: the last option is valid too but the results will be enclosed with quotati
 
 #### Q67. You are working with the table in this diagram. You want to use full-text search to find the customers who live on a street or a drive. What is the command to do that?
 
-Table name: customers
-| ID | lastname | firstname | phone | address | city | state | zip |
+Table name: **customers**
+
+| ID   | lastname | firstname | phone        | address             | city        | state | zip   |
 | ---- | -------- | --------- | ------------ | ------------------- | ----------- | ----- | ----- |
-| A001 | Smith | Bob | 212-555-1212 | 1001 1st Street | New York | NY | 10001 |
-| A002 | Chang | John | 213-555-5678 | 888 Rodeo Drive | Los Angeles | CA | 90210 |
-| A003 | Smith | Mary | 999-999-9999 | 123 Main Street | Anytown | VA | 12345 |
-| A004 | Johnson | Jack | 312-312-3120 | 1111 Chicago Avenue | Chicago | IL | 60606 |
-| A005 | Lopez | Linda | 737-777-3333 | 123 Main Street | Austin | TX | 73344 |
+| A001 | Smith    | Bob       | 212-555-1212 | 1001 1st Street     | New York    | NY    | 10001 |
+| A002 | Chang    | John      | 213-555-5678 | 888 Rodeo Drive     | Los Angeles | CA    | 90210 |
+| A003 | Smith    | Mary      | 999-999-9999 | 123 Main Street     | Anytown     | VA    | 12345 |
+| A004 | Johnson  | Jack      | 312-312-3120 | 1111 Chicago Avenue | Chicago     | IL    | 60606 |
+| A005 | Lopez    | Linda     | 737-777-3333 | 123 Main Street     | Austin      | TX    | 73344 |
 
 - [ ] A
 
@@ -728,7 +720,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 
 - [ ] Stored procedures are not secure, because they can be executed from the command line as the root user
 - [ ] Stored procedures are secure, because the owner of the stored procedure can decide to whom access is granted
-- [x] Stored procedures are secure, because applications can be given access to stored procedures and not any underlying variables
+- [x] Stored procedures are secure, because applications can be given access to stored procedures and not any underlying tables
 - [ ] Stored procedures are not secure, because they can execute statements to drop tables or bulk delete data
 
 #### Q78. How would you retrieve data on all the customers where no phone number is stored?
@@ -877,7 +869,7 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] XML
 - [ ] TXT
 
-#### Q96. You are working with the tables as shown in this diagram. You need to generate the list of all cars, whether or not they had been sold, with the purchase date of the cars that were sold. Which statement accomplishes that?
+#### Q96. You are working with the tables shown below. You need to generate the list of all cars, whether or not they had been sold. Which statement accomplishes that?
 
 ![mysql picture](images/mysql_q98.png?raw=true)
 
@@ -1030,3 +1022,122 @@ Table name: superheroes
 - [ ] `SELECT * FROM customers WHERE LOWERCASE(LastName) = 'potter';`
 - [x] `SELECT * FROM customers WHERE UPPER(LastName) = 'POTTER';`
 - [ ] `SELECT * FROM customers WHERE UPPER(LastName) = 'Potter';`
+
+#### Q107. "COUNT" keyword belongs to which categories in Mysql?
+
+- [x] Aggregate functions
+- [ ] Operators
+- [ ] Clauses
+- [ ] All of the mentioned`
+
+#### Q108. Which among the following belongs to an "aggregate function"?
+
+- [x] COUNT
+- [ ] UPPER
+- [ ] LOWER
+- [ ] All of the mentioned
+
+#### Q109. What is the meaning of "HAVING" clause in Mysql?
+
+- [ ] To filter out the column values
+- [x] To filter out the row values
+- [ ] To filter out the row and column values
+- [ ] None of the mentioned
+
+#### Q110. Which clause is similar to "HAVING" clause in Mysql?
+
+- [ ] SELECT
+- [ ] FROM
+- [x] WHERE
+- [ ] None of the mentioned
+
+#### Q111. What will be the output of the following MySQL command?
+
+      SELECT emp_id, fname, lname
+      FROM employee
+      WHERE title=’HEAD TELLER’ AND start_date&gt;2008-11-23;
+
+- [ ] All columns
+- [ ] Only those columns which are mention with "SELECT" clause
+- [x] Columns mention with "SELECT" clause and only those rows which contain 'HEAD TELLER' as a "title"
+- [ ] None of the mentioned
+
+#### Q112. Is there any error in the following MySQL statement?
+
+      SELECT e.emp_id, e.fname,e.lname,d.name
+      FROM employee e INNER JOIN department d
+      ON e.dept_id=e.dept_id;
+
+- [x] NO
+- [ ] YES
+- [ ] DEPEND
+- [ ] None of the mentioned
+
+#### Q113. Later versions of MySQL support the native JSON data type for storing JSON documents. What is a drawback of JSON columns?
+
+- [ ] JSON columns cannot be normalized.
+- [x] JSON columns cannot be indexed directly.
+- [ ] JSON columns are inefficient for storing JSON documents.
+- [ ] JSON documents cannot be validated when stored in JSON columns.
+
+#### Q114. With MySQL, how do you select all the records from a table named "Persons" where the "LastName" is alphabetically between (and including) "Hansen" and "Pettersen"?
+
+- [ ] `SELECT LastName>'Hansen' AND LastName<'Pettersen' FROM Persons`
+- [x] `SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'`
+- [ ] `SELECT * FROM Persons WHERE LastName>'Hansen' AND LastName<'Pettersen'`
+- [ ] `None of the above.`
+
+[Reference](https://www.w3schools.com/mysql/mysql_between.asp)
+
+#### Q115. Consider the set of relations given below and the SQL query that follows
+
+        Students : (Roll number, Name, Date of birth)
+        Courses: (Course number, Course name, instructor)
+        Grades: (Roll number, Course number, Grade)
+        SELECT DISTINCT Name
+        FROM Students, Courses, Grades
+        WHERE Students.Roll_number = Grades.Roll_number
+        AND Courses.Instructor =Sriram
+        AND Courses.Course_number = Grades.Course_number
+        AND Grades.Grade = A
+
+(Which of the following sets is computed by the above query?)
+
+- [ ] Names of Students who have got an A grade in all courses taught by Sriram
+- [ ] Names of Students who have got an A grade in all courses
+- [x] Names of Students who have got an A grade in at least one of the courses taught by Sriram
+- [ ] None of the above
+
+#### Q116. You are working with an UPDATE trigger on the employee table in this diagram. How can you access the new value for the address inside the trigger?
+
+![mysql picture](images/mysql_q116.png?raw=true)
+
+- [ ] Use NEW. address.
+- [x] Use DELETED. address.
+- [ ] Use INSERTED. address.
+- [ ] Use OLD. address.
+
+#### Q117. You are working with the tables shown below. You need to make sure that any record added to the purchases table consists of a customerlD, which already exists in the customers table, and a carlD, which already exists in the cars table. You decide to use a trigger to do the validation. Which one do you use?
+
+![mysql picture](images/mysql_q85.png?raw=true)
+
+- [ ] IF EXISTS
+- [ ] CROSS JOIN
+- [x] BEFORE INSERT
+- [ ] AFTER INSERT]
+
+`IF EXISTS` and `CROSS JOIN` are not valid for a trigger.
+
+#### Q118. Current versions of MySQL support the full-text search feature on some storage engines, as an alternative to using the LIKE operator and regular expressions. Which statement would you run to enable a full-text index for the column description in the table Car?
+
+- [x] ALTER TABLE car ADD FULL TEXT(description);
+- [ ] MERGE TABLE car ADD FULL TEXT(description)
+- [ ] ENABLE FULL TEXT(description) car
+- [ ] SEARCH FULL TEXT(description) car
+
+#### Q119. You are building a table schema to store student grades as a letter (A, B, C, D, or F). Which column type is the best choice?
+
+- [ ] VARCHAR
+- [x] ENUM
+- [ ] LONGTEXT
+- [ ] TEXT

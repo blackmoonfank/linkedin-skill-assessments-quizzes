@@ -340,7 +340,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [x] all of these answers
 - [ ] Select the **Show without animation** option.
 
-#### Q45. Which feature lets you configure multiple combinations of specific slides for playback from a larger slideshow?
+#### Q45. Which feature lets you configure multiple combinations of specific slides for playback from a larger slide show?
 
 - [ ] Record Slide Show
 - [ ] Rehearse Timings
@@ -458,10 +458,12 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 #### Q59. Why would you use Outline view?
 
-- [ ] to quickly edit titles or bulleted text in the Slide pane
+- [x] to quickly edit titles or bulleted text in the Slide pane
 - [ ] to view the comments on all slides
 - [ ] to add notes in the Slide pane
 - [ ] to change the font on all slides
+
+[Reference](https://support.microsoft.com/en-us/office/create-and-print-a-presentation-in-outline-view-3516310c-c9c0-4d4f-8c11-2759313477a5#:~:text=Working%20in%20Outline%20view%20is,A%20main%20title%20slide)
 
 #### Q60. Before publishing a presentation, which option should you use to scan a presentation and look for issues that may make it difficult for someone with a visual impairment to read?
 
@@ -516,7 +518,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 #### Q67. The picture on the left is the original image. The image on the right is smaller, but the flowers are the same size and part of the picture has been removed. What method was used to format this picture?
 
-![images](images/Q68.png)
+![images](images/Q68.png?raw=png)
 
 - [ ] changing the width and height with aspect ration locked
 - [ ] drapping a corner sizing handle
@@ -580,6 +582,8 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] Use the Share feature in Backstage view and petty email to automatically compress the pictures.
 - [ ] Use the Share feature in Backstage view to create a pdf to send as an attachment.
 
+[Reference](https://www.officetooltips.com/powerpoint_2016/tips/how_to_compress_pictures_in_the_presentation.html)
+
 #### Q75. In a presentation about voter turnout, you are illustrating various data with charts. Which type of information would you present in a pie chart?
 
 - [ ] the decline of voter turnout by county
@@ -589,7 +593,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 #### Q76. A few lines of text are overflowing the placeholder on your slide. How can you fix it on your slide?
 
-![Q79](images/Q79.png)
+![Q79](images/Q79.png?raw=png)
 
 - [ ] Delete the overflowing text.
 - [ ] Select **Stop Fitting Text to This Placeholder**.
@@ -605,7 +609,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 #### Q78. What do the labels Introduction and ProjectsByMonth indicate?
 
-![Q81](images/Q81.png)
+![Q81](images/Q81.png?raw=png)
 
 - [x] section names
 - [ ] layouts
@@ -617,7 +621,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 #### Q79. There are objects and text hidden behind an image on your slide. With the image selected, what could you adjust to make the objects and text appear "through" the image?
 
 - [ ] Compress Picture
-- [ ] Transparency
+- [x] Transparency
 - [ ] Corrections
 - [ ] Artistic Effects
 
@@ -697,3 +701,126 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [x] Textbox
 - [ ] Icon
 - [ ] 3D model
+
+#### Q91. Which view allows you to select individual objects on a slide?
+
+- [ ] Slide Sorter view
+- [ ] Slide Show view
+- [x] Normal view
+- [ ] Design view
+
+[Reference](https://support.microsoft.com/en-us/office/select-individual-objects-on-a-slide-c9c89522-65e1-40dd-a4b2-469c1b19adf8#:~:text=To%20select%20objects%20that%20are,the%20options%20that%20you%20want.)
+
+#### Q92. When in Slide Show view, what happens when you hold Ctrl (Windows) or Command (Mac) and click the left mouse button?
+
+- [x] You activate the laser pointer
+- [ ] You end the slide show
+- [ ] You toggle the mouse pointer on/off
+- [ ] You terminate animations
+
+[Reference](https://www.techrepublic.com/article/use-powerpoints-laser-pointer-to-catch-attention-and-add-excitement/#:~:text=To%20turn%20on%20the%20laser,turn%20on%20the%20laser%20pointer.)
+
+#### Q93. Which PowerPoint feature is best used to set up slide timings so slides automatically advance?
+
+- [ ] **Timing** on the **Animations** tab
+- [ ] **Advanced Animation** on the **Animations** tab
+- [ ] **Reharse Timings** on the **Slide Show** tab
+- [x] **Timing** on the **Transitions** tab
+
+[Reference](https://bluevalleyk12.libguides.com/c.php?g=140667&p=921228#:~:text=In%20Normal%20view%2C%20click%20the,to%20set%20the%20timing%20for.)
+
+#### Q94. You plan to distribute a presentation. In which format might you save it to ensure that it appears as an automatically playing slide show composed of individual slides, regardless of the recipients' platform or software applications?
+
+- [ ] PDF (.pdf)
+- [ ] PowerPoint Show (.ppsx)
+- [ ] OpenDocument Presentation (.odp)
+- [x] MPEG-4 Video (.mp4)
+
+#### Q95. Which type of illustration can be rotated while in Slide Show view, allowing the audience to see all sides of an image?
+
+- [ ] action button
+- [ ] animated image
+- [ ] icon
+- [x] 3D model
+
+#### Q96. You inserted audio into a presentation. Which two options must you enable for the audio to play throughout all slides and repeat until it is stopped?
+
+```
+A. Loop untill Stopped
+B. Play Across Slides
+C. Rewind after Playing
+D. Start When Clicked On
+```
+
+- [ ] B and C
+- [ ] C and D
+- [ ] B and D
+- [x] A and B
+
+#### Q97. Your presentation has a slide on which the text appears scrambled. What happened?
+
+![Q97](images/Q97.jpg)
+
+- [ ] The text direction has been changed to Vertical.
+- [ ] The text direction has been changed to Stacked.
+- [ ] The text direction has been changed to 360 degrees.
+- [x] The text direction has been changed to 90 degrees.
+
+#### Q98. Your colleagues have collaborated in a presentation with you, adding new content and reusing slides from other presentations. You notice the layouts vary throughout the slides: differently sized and positioned containers, and different headers and footers. Where can you make a change that will automatically be applied to all slides in the presentation?
+
+- [ ] Quick Styles
+- [x] Slide Master
+- [ ] Header & Footer
+- [ ] Handout Master
+
+[Reference](https://support.microsoft.com/en-us/topic/create-a-slide-master-in-powerpoint-19cf3e28-707a-5059-134e-29513e6f6161#:~:text=A%20slide%20master%20is%20the,View%20tab%2C%20click%20Slide%20Master.)
+
+#### Q99. Your company logo appears on all slides in a presentation as part of the overall design template's Slide Master. How can you prevent the logo from appearing on one particular slide?
+
+- [x] Hide the graphic using Design > Format Background.
+- [ ] Right-click the logo (Windows) or select the logo (Mac), and then select Delete.
+- [ ] Insert a blank shape to mask the logo.
+- [ ] Remove the logo graphic from the Slide Master template.
+
+#### Q100. Many PowerPoint slide backgrounds use a color effect that is gradually shaded from top to bottom. What is this effect called?
+
+- [ ] pattern fill
+- [ ] solid fill
+- [ ] texture fill
+- [x] gradient fill
+
+[Reference](https://support.microsoft.com/en-us/topic/add-a-gradient-color-to-a-shape-11cf6392-723c-4be8-840a-b2dab4b2ba3e)
+
+#### Q101. The picture on the left is the original image. Which type of picture format has been applied to the picture on the right?
+
+![Q101](images/Q101.png)
+
+- [ ] Picture Style
+- [x] Artistic Effect
+- [ ] Picture Layout
+- [ ] Picture Effect
+
+#### Q102. To create a stacked image with the campfire icon on top of the yellow circle, select the campfire icon, then drag it to the center of the yellow circle, What is the next step?
+
+![Q102](images/Q102.png)
+
+- [ ] On the graphics format tab, press Enter (windows) or Return (mac)
+- [ ] on the graphics format tab, click the send backward arrow and select Send to back
+- [x] On the graphics format tab, click the Bring forwarrd arrow and select bring to front
+- [ ] On the graphics format tab, in the selection pane, drag the campfire icon below the orange circle
+
+#### Q103. In this image, a link to \_ is being added?
+
+![Q103](images/Q103.png)
+
+- [ ] create a new file
+- [ ] a section
+- [x] a slide
+- [ ] an existing file
+
+#### Q104. You are creating columns in a text box using the Format Shape menu. What properties of the column can you adjust under the Text Options tab?
+
+- [ ] space between lines of text and space between columns
+- [ ] number of columns and length of columns
+- [ ] only the number of columns
+- [x] number of columns and space between columns

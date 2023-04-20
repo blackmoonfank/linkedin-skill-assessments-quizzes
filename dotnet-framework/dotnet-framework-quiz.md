@@ -286,8 +286,8 @@
 
 #### Q41. What is a thread?
 
-- [x] A single operation that does not return a value and that usually executes asynchronously
-- [ ] the basic unit to which an operating system allocate processor time
+- [ ] A single operation that does not return a value and that usually executes asynchronously
+- [x] the basic unit to which an operating system allocate processor time
 - [ ] a series of related tasks or methods that together turn inputs into outputs
 - [ ] a program that is running on your computer
 
@@ -311,26 +311,45 @@
 
 > Note: The differences are `IFormResult`/`IActionResult` and `Forms`/`Form`
 
-- [ ] public IFormResult ReceivedDataByRequest()
-      {
+- [ ]
+
+```c#
+public IFormResult ReceivedDataByRequest()
+{
       string theName = Request.Forms["theName"];
       return View();
-      }
-- [ ] public IActionResult ReceivedDataByRequest()
-      {
+}
+```
+
+- [ ]
+
+```c#
+public IActionResult ReceivedDataByRequest()
+{
       string theName = Request.Forms["theName"];
       return View();
-      }
-- [ ] public IFormResult ReceivedDataByRequest()
-      {
+}
+```
+
+- [ ]
+
+```c#
+public IFormResult ReceivedDataByRequest()
+{
       string theName = Request.Form["theName"];
       return View();
-      }
-- [x] public IActionResult ReceivedDataByRequest()
-      {
+}
+```
+
+- [x]
+
+```c#
+public IActionResult ReceivedDataByRequest()
+{
       string theName = Request.Form["theName"];
       return View();
-      }
+}
+```
 
 #### Q45. Where should you store connection string information?
 
@@ -542,3 +561,25 @@ Reference: [Compilation by the JIT compiler](https://docs.microsoft.com/en-us/do
 - [ ] Managed code is any code that does not depend on the common language runtime (CLR) for execution. Unmanaged code is code that is handled by the CLR.
 - [ ] Managed code is code that is handled by Microsoft Intermediate Language (MSIL). Unmanaged code is any code that does not depend on MSIL for execution.
 - [ ] Managed code is any code that does not depend on Microsoft Intermediate Language (MSIL) for execution. Unmanaged code is code that is handled by MSIL.
+
+#### Q72. Why use the Configure method of startup class?
+
+- [ ] It can be used to configure the application services.
+- [x] It can ensure that middleware runs before or after middleware added by libraries at the start or end of the app's request processing pipeline.
+- [ ] It can specify how the app respondes to HTTP requests.
+- [ ] It can specify how the app makes requests to HTTP.
+
+#### Q73. You want to match interfaces of different classes. which design pattern best fits this objective?
+- [ ] Decorator
+- [ ] Bridge
+- [ ] Singleton
+- [x] Adapter
+
+#### Q75. What is the difference between covariance and contravariance?
+
+- [ ] In C#, covariance and contravariance disable implicit reference conversion for array types, delegate types, and generic type arguments. Contravariance preserves assignment compatibility and covariance reverses it.
+- [X] In C#, covariance and contravariance enable implicit reference conversion for array types, delegate types, and generic type arguments. Covariance preserves assignment compatibility and contravariance reverses it.
+- [ ] In C#, covariance and contravariance enable implicit reference conversion for array types, delegate types, and generic type arguments. Contravariance preserves assignment compatibility and covariance reverses itIn C#, covariance and contravariance disable implicit reference conversion for array types, delegate types, and generic type arguments. Contravariance preserves assignment compatibility and covariance reverses it.
+- [ ] In C#, covariance and contravariance disables implicit reference conversion for array types, delegate types, and generic type arguments. Covariance preserves assignment compatibility and contravariance reverses it.
+
+Reference: [Covariance and Contravariance](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/)

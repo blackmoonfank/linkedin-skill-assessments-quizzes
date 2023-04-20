@@ -23,9 +23,7 @@
 - [x] task-based
 - [ ] callback-based
 
-[Official documentation: Task asynchronous programming model](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/task-asynchronous-programming-model)
-
-resposta correta --> var contacts = new List<string>();
+[Official documentation: Task asynchronous programming model](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/task-asynchronous-programming-model) resposta correta --> var contacts = new List<string>();
 
 #### Q4. How would you determine if a class has a particular attribute?
 
@@ -54,9 +52,8 @@ Attribute.GetCustomAttribute, typeof(SubControllerActionToViewDataAttribute)
 Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActionToViewDataAttribute))
 ```
 
-[Official documentation: Attribute Class](https://docs.microsoft.com/en-us/dotnet/api/system.attribute?view=net-5.0)
-
-[Official documentation: Attribute.GetCustomAttribute Method](https://docs.microsoft.com/en-us/dotnet/api/system.attribute.getcustomattribute?view=net-5.0)
+1. [Official documentation: Attribute Class](https://docs.microsoft.com/en-us/dotnet/api/system.attribute?view=net-5.0)
+2. [Official documentation: Attribute.GetCustomAttribute Method](https://docs.microsoft.com/en-us/dotnet/api/system.attribute.getcustomattribute?view=net-5.0)
 
 #### Q5. What is the difference between the ref and out keywords?
 
@@ -65,9 +62,8 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 - [x] Variables passed to out can be passed to a function without being initialized, while ref specifies that the value is a reference value that can be changed inside the calling method.
 - [ ] Variables passed to ref specify that the parameter is an output parameter, while out specifies that a variable may be passed to a function without being initialized.
 
-[Official documentation: ref](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/ref)
-
-[Official documentation: out parameter modifier](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/out-parameter-modifier)
+1. [Official documentation: ref](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/ref)
+2. [Official documentation: out parameter modifier](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/out-parameter-modifier)
 
 #### Q6. How could you retrieve information about a class, as well as create an instance at runtime?
 
@@ -134,9 +130,8 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 - [x] The .Equals method compares contents while `==` compares reference identity.
 - [ ] The .Equals method compares reference type while `==` compares primitive value types
 
-[Official documentation: Object.Equals](https://docs.microsoft.com/en-us/dotnet/api/system.object.equals)
-
-[c-sharpcorner: Equality Operator(==) vs .Equals()](https://www.c-sharpcorner.com/UploadFile/3d39b4/difference-between-operator-and-equals-method-in-C-Sharp)
+1. [Official documentation: Object.Equals](https://docs.microsoft.com/en-us/dotnet/api/system.object.equals)
+2. [c-sharpcorner: Equality Operator(==) vs .Equals()](https://www.c-sharpcorner.com/UploadFile/3d39b4/difference-between-operator-and-equals-method-in-C-Sharp)
 
 #### Q11. Which choice best describes a deadlock situation?
 
@@ -218,14 +213,14 @@ foreach(string employee in employeeQuery)
 
 #### Q18. What is the correct formatting for single line and multiline comments?
 
-- [ ] /_/ - Single Line
-      /_ - Multiline
-- [ ] // Multiline
-      /_ Single Line _/
-- [ ] //\* Multiline
-      / Single Line
-- [x] // Single Line
-      /_ Multiline _/
+- [ ] `/_/ - Single Line`
+      `/_ - Multiline`
+- [ ] `// Multiline`
+      `/_ Single Line _/`
+- [ ] `//\* Multiline`
+      `/ Single Line`
+- [x] `// Single Line`
+      `/* Multiline */`
 
 [w3schools: C# Comments](https://www.w3schools.com/cs/cs_comments.php)
 
@@ -236,9 +231,8 @@ foreach(string employee in employeeQuery)
 - [ ] Make it private
 - [x] Make it virtual
 
-[Official documentation: virtual](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/virtual)
-
-[Official documentation: abstract](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/abstract)
+1. [Official documentation: virtual](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/virtual)
+2. [Official documentation: abstract](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/abstract)
 
 #### Q20. How would you write code for an integer property called Age with a getter and setter?
 
@@ -310,9 +304,8 @@ foreach(string employee in employeeQuery)
 - [ ] Throw clauses overwrite the stack trace, while throw exceptions retain the stack information.
 - [ ] Throw exceptions fire only at runtime, while throw clauses can fire during compile time.
 
-[Official documentation: throw](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/throw)
-
-[c-sharpcorner: Difference Between Throw Exception and Throw Clause](https://www.c-sharpcorner.com/UploadFile/akkiraju/difference-between-throw-exception-and-throw-clause/)
+1. [Official documentation: throw](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/throw)
+2. [c-sharpcorner: Difference Between Throw Exception and Throw Clause](https://www.c-sharpcorner.com/UploadFile/akkiraju/difference-between-throw-exception-and-throw-clause/)
 
 #### Q28. When an asynchronous method is executed, the code runs but nothing happens other than a compiler warning. What is most likely causing the method to not return anything?
 
@@ -359,9 +352,8 @@ foreach(string employee in employeeQuery)
 - [x] \b
 - [ ] \w
 
-[regular-expressions: Word Boundaries](https://www.regular-expressions.info/wordboundaries.html)
-
-[Official documentation: Regular Expression Language - Quick Reference](https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference)
+1. [regular-expressions: Word Boundaries](https://www.regular-expressions.info/wordboundaries.html)
+2. [Official documentation: Regular Expression Language - Quick Reference](https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference)
 
 #### Q33. To conform to the following interface, which of its members need to be implemented?
 
@@ -546,21 +538,21 @@ public static void Main(string[] args)
 
 #### Q50. What is the correct way to write a public property with a private backing field?
 
-- [ ]
+- [ ] A
 
 ```cs
 private int _password;
 pubic int Password = { get; set; }
 ```
 
-- [ ]
+- [ ] B
 
 ```cs
 private int _password;
 public int Password = _password;
 ```
 
-- [ ]
+- [ ] C
 
 ```cs
 private int _password;
@@ -571,7 +563,7 @@ public int Password
 }
 ```
 
-- [x]
+- [x] D
 
 ```cs
 private int _password;
@@ -670,9 +662,8 @@ public int Password
 - [x] A value type stores an actual value, while a reference type is a pointer to a value.
 - [ ] A value type is available only at runtime, while a reference type is available only at compile time.
 
-[Official documentation: Value types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types)
-
-[Official documentation: Reference types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types)
+1. [Official documentation: Value types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types)
+2. [Official documentation: Reference types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types)
 
 #### Q61. What is the difference between the `break` and `continue` keywords?
 
@@ -718,9 +709,11 @@ public int Password
 - [ ] `string myVariable = null`
 - [ ] `string(null) myVariable`
 
+[Official documentation: nullable value types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/nullable-value-types#declaration-and-assignment)
+
 #### Q66. Do you need to declare an out variable before you use it?
 
-- [x] `No, you can declare it in the parameter list.`
+- [x] `No, you can declare an out in the parameter list.`
 - [ ] `Out variables are no longer part of C#.`
 - [ ] `You must declare it if it is a primitive type.`
 - [ ] `Yes.`
@@ -732,7 +725,8 @@ public int Password
 - [ ] `People[..^3]`
 - [ ] `People[^2]`
 
-[Official Documentation: Ranges](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-8.0/ranges)
+Explain: You **can** do this in C#. However, none of the above answers are correct. You could access the last two items by using `People[^2..]`. Please see [issue #3354](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/3354) for more information.
+See also: [Official Documentation: Ranges](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-8.0/ranges)
 
 #### Q68. When can anonymous types be created?
 
@@ -779,4 +773,67 @@ public int Password
 - [ ] Thread.Suspend(3000);
 - [x] Thread.Sleep(3000);
 
-[Official Documentation: https://docs.microsoft.com/en-us/dotnet/api/system.threading.thread.sleep?view=net-6.0]
+[Reference](https://docs.microsoft.com/en-us/dotnet/api/system.threading.thread.sleep?view=net-6.0)
+
+#### Q73. What is wrong with this code?
+
+```cs
+void MyFunction()
+{
+    {
+        int a = 10;
+        int b = 20;
+        int c = a + b;
+    }
+
+    Console.WriteLine(c);
+}
+```
+
+- [ ] Variable c is never used; displaying it on the console does not count as usage.
+- [ ] Variables a and b are never used.
+- [ ] You cannot place code inside brackets inside another block.
+- [x] Variable c no longer exists outside the block.
+
+[Reference](https://stackoverflow.com/a/6136865)
+
+#### Q74. Which statement is True?
+
+- [ ] All are true.
+- [ ] None are true.
+- [ ] string is a value type.
+- [x] string is an alias for String
+
+[Reference](https://stackoverflow.com/q/7074)
+
+#### Q75. How would you return more than one value from a method?
+
+- [x] Use either a tuple or an out variable.
+- [ ] The only way is to use an out variable.
+- [ ] The only way is to use a tuple.
+- [ ] This cannot be done
+
+#### Q76. Which is a valid example of a derived class?
+
+- [ ] `public class PremiumUser sub User {}`
+- [x] `public class PremiumUser: User {}`
+- [ ] `public class PremiumUser -> sub User {}`
+- [ ] `public class User: PremiumUser {}`
+
+#### Q77. What is the correct way to call a static method named DebugString from a static class called InputManager?
+
+- [ ] `static InputManager.DebugString();`
+- [ ] `InputManager().DebugString;`
+- [ ] `new InputManager().DebugString();`
+- [x] `InputManager.DebugString();`
+    
+#### Q78. What values can be assigned to this variable?
+    
+```cs
+public string? nickname
+```
+
+- [ ] null
+- [ ] String values
+- [x] String values or null
+- [ ] String values with more than one character

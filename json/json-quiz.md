@@ -17,19 +17,19 @@
 ]
 ```
 
-- [ ]
-
-```json
-['red', 'blue', 'green']
-```
-
-- [x]
+- [ ] A
 
 ```json
 ["red", "blue", "green"]
 ```
 
-- [ ]
+- [x] B
+
+```json
+["red", "blue", "green"]
+```
+
+- [ ] C
 
 ```json
 {
@@ -39,7 +39,7 @@
 }
 ```
 
-- [ ]
+- [ ] D
 
 ```json
 {
@@ -116,7 +116,7 @@
 }
 ```
 
-- [ ]
+- [ ] A
 
 ```json
 {
@@ -133,24 +133,7 @@
 }
 ```
 
-- [ ]
-
-```json
-{
-  "photo": {
-    "width": 1600,
-    "height": 900,
-    "binaries": {
-      "url": "https://www.example.com/images/34097349843",
-      "thumbnail": "https://www.example.com/images/thumbs/34097349843",
-    },
-    "animated": false,
-    "tags": [116, 943, 234, 38793]
-  }
-}
-```
-
-- [x]
+- [ ] B
 
 ```json
 {
@@ -167,7 +150,24 @@
 }
 ```
 
-- [ ]
+- [x] C
+
+```json
+{
+  "photo": {
+    "width": 1600,
+    "height": 900,
+    "binaries": {
+      "url": "https://www.example.com/images/34097349843",
+      "thumbnail": "https://www.example.com/images/thumbs/34097349843"
+    },
+    "animated": false,
+    "tags": [116, 943, 234, 38793]
+  }
+}
+```
+
+- [ ] D
 
 ```json
 {
@@ -244,7 +244,7 @@
 
 #### Q18. Which code uses valid JSON syntax for the text "Centennial Olympics?
 
-- [ ]
+- [ ] A
 
 ```json
 {
@@ -254,17 +254,7 @@
 }
 ```
 
-- [ ]
-
-```json
-{
-"host": "Atlanta",
-"year": 1996,
-/_ Centennial Olympics _/
-}
-```
-
-- [ ]
+- [ ] B
 
 ```json
 {
@@ -274,7 +264,7 @@
 }
 ```
 
-- [ ]
+- [ ] C
 
 ```json
 {
@@ -284,7 +274,7 @@
 }
 ```
 
-- [ ]
+- [ ] D
 
 ```json
 {
@@ -294,7 +284,7 @@
 }
 ```
 
-- [x]
+- [x] E
 
 ```json
 {
@@ -472,7 +462,7 @@ null
 
 ```json
 {
-  'avengers': ['iron man', 'hulk', 'thor', 'black widow', 'ant man', 'spider man']
+  "avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man"]
 }
 ```
 
@@ -589,7 +579,6 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] UPC: "043875"
 - [x] "UPC": 043875
 - [ ] UPC: '043875'
-
 
 #### Q44. Which data format is a JSON schema written in?
 
@@ -752,10 +741,10 @@ Note: None of the above options appear to be correct. A correct answer would be 
 
 #### Q63. What characters are used to enclose an array?
 
-- [ ] []
-- [x] {}
-- [ ] ""
-- [ ] ()
+- [x] `[]`
+- [ ] `{}`
+- [ ] `""`
+- [ ] `()`
 
 #### Q64. What is the official MIME type for JSON?
 
@@ -962,3 +951,10 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 - [ ] nested
 
 `YAML supports # comments but not JSON`
+
+#### Q87. Which is an invalid JSON value? (same as previous question, but different possible answers)
+
+- [ ] `"'|=(_)(X 72(_)|\/||*'"`
+- [x] `"\s(_)(X 72(_)|\/||*"`
+- [ ] `"|=(_)(X\" \"72(_)|\/||*"`
+- [ ] `"|=(_)(X 72(_)|\/||*"`

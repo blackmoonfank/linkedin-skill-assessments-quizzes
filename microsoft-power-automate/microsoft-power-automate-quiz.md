@@ -4,7 +4,7 @@
 
 - [ ] click the name and type over it
 - [ ] highlight the step and, in the menu bar, select Rename step.
-- [ ] at the top-right corner of the step card, click the small ellipsis and select Rename
+- [x] at the top-right corner of the step card, click the small ellipsis and select Rename
 - [ ] from the flow's detail page, in the menu var, click Rename.
 
 #### Q2. If you create the flow directly in Microsoft Teams, who can use the flow?
@@ -23,7 +23,7 @@
 
 #### Q4. The flow pictured saves new email attachments in SharePoint, adds a row to Excel to document the file save, and sends a message to TEAMS. What is the proper placement of steps B, D, and E?
 
-![Image of footer](images/Q01.png)
+![Image of footer](images/Q01.png?raw=png)
 
 - [x] B, D and E belong inside C in the order listed.
 
@@ -47,7 +47,7 @@
 
 #### Q7. What is the purpose of the flow?
 
-![Image of footer](images/Q02.png)
+![Image of footer](images/Q02.png?raw=png)
 
 - [ ] to add events. to an Outlook calender if they are deleted in Google Calender
 - [x] to delete Outlook calender events when they are deleted in Google Calender
@@ -116,7 +116,7 @@
 
 #### Q15. What control would you use to build parallel branches of conditional logic based on a single value?
 
-![Image of footer](images/Q03.png)
+![Image of footer](images/Q03.png?raw=png)
 
 - [x] Apply to each
 - [ ] Scope
@@ -161,7 +161,7 @@
 #### Q21. Can flows that have been created outside of a solution be shared in a solution?
 
 - [ ] Yes, but only system admins have the ability to move flows into solutions after they are created
-- [ ] Yes, flows can be easily imported into solutions
+- [x] Yes, flows can be easily imported into solutions
 - [ ] It is entirely dependent on the type of flow - for instance, instant flows cannot but most automated flows can.
 - [ ] No, to be shared as part of a solution, they need to be created within the solution
 
@@ -169,7 +169,7 @@
 
 - [ ] Power automate does not support two-way synchronization, so changes made in the destination are not copied back to the source
 - [ ] you can copy data only between databases in the same environment
-- [ ] All field names in both database must match exactly and there must be the same number of records in each database
+- [x] All field names in both database must match exactly and there must be the same number of records in each database
 - [ ] You must always create a loop to verify your data has been successfully copied
 
 #### Q23. How do you share a template in Power Automate?
@@ -188,11 +188,11 @@
 
 #### Q25. You are automating this suggestion review process: When a new suggestion is added to an SharePoint list, a staffer emails every member of the review committee, asking them to approve the suggestion. The staffer updates SharePoint as replies are received. A suggestion is approved or rejected when at least four of the seven committee members have approved or rejected it. In addition to Start and Wait for an approval, which components will be needed for your flow?
 
-A. Send an email
-B. Parallel branch
-C. Delay until
-D. Approvals - start an approval
-E. SharePoint - when an item is created or modified
+    A. Send an email
+    B. Parallel branch
+    C. Delay until
+    D. Approvals - start an approval
+    E. SharePoint - when an item is created or modified
 
 - [ ] B,D
 - [ ] A,B,D,E
@@ -212,3 +212,60 @@ E. SharePoint - when an item is created or modified
 - [x] Terminate
 - [ ] Scope
 - [ ] Switch
+
+#### Q28. Can you create nested conditions? If yes, how?
+
+- [x] Yes. Add another set of conditions into the Yes/No results of an existing condition.
+- [ ] Yes. Add another set of conditions after the resulting actions.
+- [ ] No. You can have only one set of conditions per flow.
+- [ ] It depends on the action. For instance, you cannot have multiple conditions if you are updating SharePoint records.
+
+#### Q29. What control would you use to build parallel branches of conditional logic based on a single value?
+
+![Image of footer](images/Q01.png?raw=png)
+
+- [ ] Apply to each
+- [ ] Scope
+- [x] Switch
+- [ ] Condition
+
+#### Q30. In this flow, what is required for dynamic content to be available for use in the Email step?
+
+![Image of footer](images/Q30.png?raw=png)
+
+- [ ] Recipient of email must have edit rights to the SharePoint library.
+- [ ] User must be owner of the SharePoint library.
+- [ ] The SharePoint site and library must be specified.
+- [x] File must be in a folder inside the SharePoint library.
+
+#### Q31. What is a business process flow?
+
+- [ ] Business process flows are automatically generated from business process flow charts in Microsoft Visio.
+- [x] Business process flows define a set of steps that guide people through a process to a desired outcome.
+- [ ] Accounting departments use business process flows to report on regular operations.
+- [ ] You can use business process flows to create routines that will automatically process business maintenance tasks, such as system backups.
+
+#### Q32. What rights do you give to other people with whom you share a flow directly from Power Automate?
+
+- [ ] You give them the rights to use the flow only. 
+- [ ] You give them the rights to use, edit, share, or delete the flow. 
+- [x] You give them the rights to use the flow, but you can extend the rights to edit or share for specific people.
+- [ ] You give them the rights to edit or share the flow.
+
+#### Q33. Who can use the Power Automate mobile app? 
+
+![Image of footer](images/Q30.png?raw=png)
+
+- [ ] Anyone who already has a Power Automate account can install and use the mobile app.
+- [ ] Anyone who purchases a Power Automate mobile license can install and use the mobile app.
+- [ ] The Power Automate app can be installed and used on mobile devices that are linked to Office 365 enterprise licenses.
+- [x] Anyone can install and use the Power Automate app on an Android or iOS device.
+
+#### Q34. You want a flow that sends an email if a new spreadsheet is added to a SharePoint library. What is the correct order for the steps shown?
+
+![Image of footer](images/Q34.png?raw=png)
+
+- [ ] A, B, D, E, C
+- [x] C, B, A, E, D
+- [ ] D, A, E, B, C
+- [ ] C, A, B, D, E

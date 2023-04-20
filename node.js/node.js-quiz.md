@@ -43,7 +43,7 @@
 - [x] createReadStream
 - [ ] readFileSync
 
-**Explanation:** _From official docs: [reference](https://nodejs.org/api/fs.html#fs_dir_read)
+**Explanation:** _From official docs: [reference](https://nodejs.org/api/fs.html#fscreatereadstreampath-options)
 To minimize memory costs, when possible prefer streaming via fs.createReadStream()._
 
 #### Q6. Which of the following DNS module methods uses the underlying OS facilities and does not necessarily perform any network communication?
@@ -188,6 +188,8 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 - [ ] exec("ps", "-ef")
 - [ ] fork("ps -ef")
 
+**Reference:** From official docs: [reference](https://nodejs.org/api/child_process.html#child_processforkmodulepath-args-options)
+
 #### Q22. Which console method can be used to print the stack trace to the point of its execution?
 
 - [ ] stack
@@ -227,6 +229,8 @@ server.listen(port, hostname, () => { console.log(`server running at http://${ho
 - [ ] It is a retiring module.
 - [ ] to provide utilities to test files
 
+**Explanation:** From official docs: [reference](https://nodejs.org/api/path.html)
+
 #### Q26. How do you make an HTTP server object active and listen to requests on certain ports?
 
 - [ ] server. start
@@ -262,6 +266,8 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] to provide methods to work with databases
 - [ ] to find new file systems
 
+**Explanation:** From official docs: [reference](https://nodejs.org/api/fs.html)
+
 #### Q30. What is the Node LTS version?
 
 - [ ] It is the current unstable version and is to be avoided.
@@ -280,10 +286,10 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 
 `console.log(arguments);`
 
-- [ ] ReferenceError: arguments is not defined
+- [x] ReferenceError: arguments is not defined
 - [ ] an empty string
 - [ ] undefined
-- [x] an object representing an array that has five elements
+- [ ] an object representing an array that has five elements
 
 #### Q33. Which choice is not a valid method on event emitters?
 
@@ -399,6 +405,8 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] dgram
 - [ ] inspector
 
+**Explanation:** From official docs: [reference](https://nodejs.org/api/async_hooks.html)
+
 #### Q49. Which Node.js module should you use when you need to decode raw data into strings?
 
 - [ ] buffer
@@ -464,11 +472,11 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 #### Q56. Which choice is `not` a Node global object?
 
 - [ ] process
-- [ ] exports
+- [x] exports
 - [ ] setTimeout
-- [x] Buffer
+- [ ] Buffer
 
-**Explanation:** _process, exports and setTimeout are global objects, Buffer isn't (please see https://nodejs.org/api/globals.html)_
+**Explanation:** _`exports` may appear to be global but is not (please see https://nodejs.org/api/globals.html#exports)._
 
 #### Q57. What is the correct way to pipe a readable stream and a writable stream?
 
@@ -483,6 +491,8 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [x] path.join
 - [ ] path.format
 - [ ] path.parse
+
+**Explanation:** From official docs: [reference](https://www.w3schools.com/nodejs/met_path_join.asp)
 
 #### Q59. What is the purpose of N-API?
 
@@ -594,10 +604,12 @@ console.log(person);
 
 #### Q71. How can ECMAScript modules be used natively in Node?
 
-- [x] ECMAScript modules cannot be used natively in Node.
-- [ ] ECMAScript modules can be used natively in Node with the .mjs file extension
+- [ ] ECMAScript modules cannot be used natively in Node.
+- [x] ECMAScript modules can be used natively in Node with the .mjs file extension
 - [ ] ECMAScript modules can be used natively in Node only by using a compiler like Babel.
 - [ ] ECMAScript modules can be used natively in Node only by using a bundle like webpack.
+
+[Reference](https://nodejs.org/docs/latest/api/packages.html#determining-module-system)
 
 #### Q72. When exploring the Node documentation's features, what are the stability ratings?
 
@@ -630,3 +642,60 @@ console.log(person);
 - [x] util.types.isDate(value)
 
 [Reference](https://nodejs.org/api/dns.html#dnslookuphostname-options-callback)
+
+#### Q76. When you `require(something)`, where will Node.js attempt to `resolve(something)`?
+
+- [ ] the local .modules folder, then the parents' node_modules folder
+- [x] the local node_modules folder, then the parents' node_modules folder
+- [ ] the .modules folder under the home directory
+- [ ] a "something.js" file or a "something" folder, which exist on the same level as the requiring file
+
+#### Q77. An external library has its own codebase and license. It is not managed by the Node.js core team. Which choice is an external library that Node.js uses?
+
+- [ ] net
+- [x] openssl
+- [ ] cluster
+- [ ] events
+
+[Reference](https://nodejs.org/en/docs/meta/topics/dependencies/)
+
+#### Q78. What is the main purpose of the package-lock.json file?
+
+- [ ] to be a system file
+- [x] to provide an exact, single representation of the dependency tree
+- [ ] to serve as a module to export dependencies
+- [ ] to be a log for the application
+
+#### Q79. What response will you get when you send a get requests to the server with this code?
+
+```
+const http = require('http');
+const hostname = '127.0.0.1';
+const port = 3000;
+
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Hello World\n');
+});
+
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
+```
+
+- [x] `server running at http://127.0.0.1:3000`
+- [ ] `server running at port 3000`
+- [ ] `server running at http://localhost:3000/`
+- [ ] `server running at http://localhost:4000/`
+
+[Refrence](https://nodejs.org/en/docs/guides/getting-started-guide/)
+
+#### Q80. Which choice is not a Node global object?
+
+- [ ] process
+- [x] exports
+- [ ] setTimeout
+- [ ] Buffer
+
+[Refrence](https://www.w3resource.com/node.js/nodejs-global-object.php#exports)

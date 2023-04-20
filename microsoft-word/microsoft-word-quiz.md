@@ -116,7 +116,7 @@
 
 #### Q17. What happens in this SmartArt object when you press the Delete key?
 
-![image](images/001.png)
+![image](images/001.png?raw=png)
 
 - [x] The boxes resize to maintain the same overall height.
 - [ ] The object is deleted and a hole is left behind.
@@ -125,7 +125,7 @@
 
 #### Q18. What happens in this SmartArt diagram when you delete the selected object?
 
-![image](images/001.png)
+![image](images/001.png?raw=png)
 
 - [ ] The text from the deleted box merges with the next box's text.
 - [ ] The selected object is deleted and the spacing is preserved where the object was.
@@ -192,7 +192,7 @@ Read carefully. It's not about recovering, but only the last recent file!
 
 #### Q26. Your document contains two columns of content with a vertical line between the columns, as shown. From where can you delete the line?
 
-![image](images/003.png)
+![image](images/003.png?raw=png)
 
 - [ ] Insert > Text
 - [x] Columns dialog box
@@ -252,7 +252,7 @@ Read carefully. It's not about recovering, but only the last recent file!
 
 #### Q34. Which formatting option was used to create the effect shown below?
 
-![image](images/004.png)
+![image](images/004.png?raw=png)
 
 - [ ] Drop Cap
 - [x] Subscript
@@ -389,7 +389,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 #### Q50. In the image below, what do the red bars next to the text indicate?
 
-![image](images/002.png)
+![image](images/002.png?raw=png)
 
 - [ ] Draw tools were used in these areas.
 - [x] Changes were made to these areas.
@@ -433,10 +433,10 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 #### Q56. You want to be able to edit your Word document simultaneously with other Word users in your organization. Which save location should you select in the Save As dialog box?
 
-A. OneDrive
-B. SharePoint document library
-C. Google Drive
-D. DropBox
+    A. OneDrive
+    B. SharePoint document library
+    C. Google Drive
+    D. DropBox
 
 - [ ] A
 - [ ] A, B, C, D
@@ -463,12 +463,10 @@ D. DropBox
 
 #### Q59. How can you tell if a colleague is coauthoring a document at the same time as you? (Select all that apply.)
 
-```markdown
-A. Colleague's name appears in the Share panel.
-B. Colleague's picture appears in the upper-right corner of the ribbon.
-C. A banner notification pops up as the colleague edits the document.
-D. A flag icon with the colleague's name appears where their edit is being made.
-```
+    A. Colleague's name appears in the Share panel.
+    B. Colleague's picture appears in the upper-right corner of the ribbon.
+    C. A banner notification pops up as the colleague edits the document.
+    D. A flag icon with the colleague's name appears where their edit is being made.
 
 - [ ] A, B, C
 - [ ] B, C, D
@@ -522,7 +520,7 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 
 #### Q65. In the image below, where do you click to hide comments when a document prints?
 
-![image](https://i.imgur.com/JjdzceL.png)
+![image](https://i.imgur.com/JjdzceL.png?raw=png)
 
 - [ ] A
 - [x] B
@@ -719,3 +717,126 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [x] Format
 - [ ] Translate
 - [ ] Transform
+
+#### Q92. Which is not a text wrapping option for a picture?
+
+- [x] justify
+- [ ] through
+- [ ] behind text
+- [ ] tight
+
+#### Q93. You are editing a paragraph that begins on one page and ends on the next after selecting the entire paragraph, how can you display it on one page?
+
+- [ ] In paragraph settings, click Indent and Spacing > pagination and select Keep with next
+- [x] In paragraph settings, click Line and Page Break > pagination and select Keep with next
+- [ ] In paragraph settings, click Line and Page Break > pagination and select keep lines together
+- [ ] In paragraph settings, click Line and Page Break > pagination and select Widow/Orphan control
+
+#### Q94. Double clicking in the left margin will \_ the paragraph to the right.
+
+- [ ] double indent
+- [x] select
+- [ ] delete
+- [ ] underline
+
+#### Q95. When using Track Changes, what formatting indicates that text has been deleted?
+
+- [x] strikethrough
+- [ ] wavy line
+- [ ] italic
+- [ ] underline
+
+#### Q96. What action allows you to quickly access a specific document from your list of saved files?
+
+- [ ] Pin to list
+- [ ] Add to chooser
+- [x] Mark as favorite
+- [ ] Drag to Home tab
+
+#### Q97. When you create a macro, you can assign it to a **\_**. (Select all that apply.)
+
+    A. keyboard shortcut
+    B. specific user
+    C. style pane
+    D. group on the ribbon
+
+- [ ] D
+- [x] A
+- [ ] A, C, D
+- [ ] A, B, C
+
+[Reference](https://support.microsoft.com/en-us/office/create-or-run-a-macro-c6b99036-905c-49a6-818a-dfb98b7c3c9c#:~:text=Do%20one%20of%20the%20following,Click%20Button.)
+
+#### Q98. Both boxes contain a white arrow, but it is visible only in the second box. What command was applied to the second box to make the arrow visible?
+
+![Q98.png](images/Q98.png)
+
+- [ ] Bring to front
+- [ ] WordArt
+- [ ] Group
+- [x] Send to back
+
+#### Q99. Which selecton handle should you drag to rotate the object?
+
+![Q99.png](images/Q99.png)
+
+- [ ] G
+- [ ] E
+- [x] A
+- [ ] C
+
+#### Q100. You and your colleagues are asked to reply to some comments in a documents you have addressed your comments. Which choice is not a good way to indicate that you have taken care of the comments before sending the file to the next person?
+
+- [ ] Insert a new comment
+- [ ] Reply to the comment
+- [x] Delete the comment
+- [ ] Resolve the comment
+
+#### Q101. What action allow you to quickly access a specific docuemnt from your list of saved file?
+
+- [ ] List
+- [ ] Go to file
+- [x] Bookmark
+- [ ] Jump
+
+#### Q102. Which page orientation should you select to accomdate a wide chart or table?
+
+- [ ] Wide
+- [ ] Potrait
+- [x] Landscape
+- [ ] None of the above
+
+#### Q103. For what task can you not use the style inspector?
+
+- [ ] displaying the paragraph formatting at the insertion point
+- [ ] resestting or clearing paragraph or text-level formatting
+- [x] recommending style changes for improved accessibility
+- [ ] displaying the text-level formatting at the insertion point
+
+#### Q104. Your industry uses a lot of terminology that is not included in regular dictionaries, so document checking is both inaccurate and laborious. How can you modify Word to make document checking more efficient and accurate?
+
+- [ ] In the Word proofing options, enable Suggest (Windows) or Select (Mac) from main dictionary only
+- [ ] Add your terminology to the default Word dictionary
+- [ ] In the Word proofing tools, enable checking for both Cliches and Jargon (Windows) or Cliches, colloquialisms and jargon (Mac)
+- [ ] Create a custom dictionary that includes your specific terminology
+
+#### Q105. What happens when you resolve a comment?
+
+- [ ] The comment is deleted
+- [ ] There is no change to the comment
+- [ ] A reply is added to the comment
+- [x] The comment appears dimmed
+
+#### Q106. Using the Styles group in Word lets you quickly ______?
+
+- [ ] apply frames and artistic effects to graphics
+- [ ] modify page margins
+- [ ] apply a different theme
+- [x] apply styles for heading levels, body text, and titles
+
+#### Q107. You need to direct a reader from specific text to a related graphic that clarifies the content in another place in your document. Which command can you use to set this up?
+
+- [ ] Citation
+- [ ] Table of Contents
+- [x] Cross-Reference
+- [ ] Table of Figures
